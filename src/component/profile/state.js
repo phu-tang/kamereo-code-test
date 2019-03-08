@@ -78,7 +78,7 @@ export const closeDialogAC = always({
   payload: false,
 });
 
-const dialogReducer = (state = false, { type, payload }) => {
+export const dialogReducer = (state = false, { type, payload }) => {
   if (type === TOGGLE_DIALOG) {
     return payload;
   }

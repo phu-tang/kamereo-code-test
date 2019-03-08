@@ -12,7 +12,7 @@ export const shouldShowNotificationSelector = state =>
 
 // ACTIONS
 const TURN_OFF_NOTIFICATIONS = 'card/actions/TURN_OFF_NOTIFICATIONS';
-const TURN_ON_NOTIFICATIONS = 'card/actions/TURN_ON_NOTIFICATIONS';
+export const TURN_ON_NOTIFICATIONS = 'card/actions/TURN_ON_NOTIFICATIONS';
 
 // ACTION CREATORS
 export const hideNotification = always({
