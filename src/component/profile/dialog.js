@@ -254,6 +254,10 @@ export const ConnectedAction = compose(
   ),
   branch(
     ({ isFetching }) => isFetching,
-    renderComponent(() => <CircularProgress size={40} thickness={7} />),
+    renderComponent(() => (
+      <div align="center">
+        <CircularProgress size={40} thickness={7} />
+      </div>
+    )),
   ),
 )(ActionComponent);
